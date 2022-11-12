@@ -8,12 +8,10 @@ const PokeList = (props) => {
   const { pokemons, loading, page, totalPages, setPage } = props;
 
   const onBackClickHandler = () => {
-    console.log('Volta')
     page > 0 && setPage(page - 1)
   }
 
   const onNextClickHandler = () => {
-    console.log('Avança')
     page + 1 !== totalPages && setPage(page + 1)
   }
 

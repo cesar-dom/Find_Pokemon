@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "tailwind": "  npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",

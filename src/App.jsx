@@ -19,7 +19,6 @@ function App() {
         return await getPokemonData(pokemon.url)
       })
       const results = await Promise.all(promises)
-      console.log('results: ', results)
       setPokemons(results)
       setLoading(false)
       setTotalPages(Math.ceil(data.count / itensPerPage))
