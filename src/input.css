@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+p {
+    color: white;
+}
+
+h1 {
+    color: white;
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+button {
+    color: white;
+    font-weight: 600;
+}

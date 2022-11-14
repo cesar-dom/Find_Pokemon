@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 
 const PokemonCard = ({ pokemon }) => {
-  // const { pokemon } = props;
   return (
     <div className="m-4 p-4 bg-slate-50 rounded-lg flex flex-col items-center">
       <div className="w-full flex justify-between">
