@@ -96,7 +96,7 @@ const PokeFinder = () => {
     }
 
   return (
-    <div className={startGame ? "bg-red-500 w-full h-full py-4 pr-10 flex flex-col items-center justify-center" : "bg-red-500 w-full py-4 pr-10 flex flex-col items-center justify-center "}>
+    <div className={startGame ? "bg-red-500 w-full h-full py-4 pr-10 flex flex-col items-center justify-center" : "bg-red-500 w-full h-full py-4 pr-10 flex flex-col items-center justify-center"}>
     <h1>Who's that Pokémon? Game</h1>
         <p>We have selected a <strong>random pokémon</strong> from a pool of 100. See if you can guess it in <strong>10 tries</strong> or fewer.</p>
         

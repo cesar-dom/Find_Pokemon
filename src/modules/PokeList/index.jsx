@@ -26,7 +26,7 @@ const PokeList = (props) => {
         <div>
         <PokeFinder />
           
-          <div className="w-full py-4 pr-10 flex justify-end ">
+          <div className="w-full py-4 pr-10 flex justify-end">
             <PaginationControls
               page={page + 1}
               totalPages={totalPages}
